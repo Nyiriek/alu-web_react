@@ -1,6 +1,6 @@
 'use strict';
-import $ from 'jquery';
+const $ = require('jquery');
 
-$( body ).append( '<p>Holberton Dashboard</p>' );
-$( body ).append( '<p>Dashboard data for the students</p>' );
-$( body ).append( '<button>Copyright - Holberton School</button>' );
+$('body').append('<p>Holberton Dashboard</p>');
+$('body').append('<p>Dashboard data for the students</p>');
+$('body').append('<button>Copyright - Holberton School</button>');
