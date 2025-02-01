@@ -11,3 +11,7 @@ const updateCounter = () => {
   const count = $('#count').html() || 0;
   $('#count').html(`${parseInt(count, 10) + 1} clicks on the button`);
 }
+
+_.debounce(() => {
+  $('button').on('click', updateCounter);
+}, 500);
