@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --holb-red: #FF0000;
+}
+
+.App-header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  border-bottom: 4px solid var(--holb-red);
+}
+
+.App-header img {
+  width: 300px;
+  height: 250px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: -28rem;
+}
+
+.App-header h1 {
+  max-width: fit-content;
+  color: var(--holb-red);
+  margin-top: 8rem;
+  margin-left: 8.5rem;
+
+}
+
+/* App-body */
+
+.App-body {
+  min-height: 60vmin;
+  padding: 32px;
+  margin-bottom: -2rem;
+}
+
+.App-body p {
+  font-weight: bold;
+}
+
+/* App-footer */
+
+.App-footer {
+  font-style: italic;
+  border-top: 4px solid var(--holb-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vmin;
+}
