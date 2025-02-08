@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alu-web_react.git/static/css/main.6acc2818.css",
+    "main.js": "/alu-web_react.git/static/js/main.c0ae081f.js",
+    "static/js/488.5abc565a.chunk.js": "/alu-web_react.git/static/js/488.5abc565a.chunk.js",
+    "static/media/Holberton.png": "/alu-web_react.git/static/media/Holberton.aa4b5d9cc902a8b9ccdc.png",
+    "index.html": "/alu-web_react.git/index.html",
+    "main.6acc2818.css.map": "/alu-web_react.git/static/css/main.6acc2818.css.map",
+    "main.c0ae081f.js.map": "/alu-web_react.git/static/js/main.c0ae081f.js.map",
+    "488.5abc565a.chunk.js.map": "/alu-web_react.git/static/js/488.5abc565a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6acc2818.css",
+    "static/js/main.c0ae081f.js"
+  ]
+}
