@@ -5,6 +5,7 @@ const getFullYear = () => {
 const getFooterCopy = (isIndex) => {
     return isIndex ? 'Holberton School' : 'Holberton School main dashboard';
 }
+
 const getLatestNotification = () => {
     return 'Urgent requirement - complete by EOD';
 }

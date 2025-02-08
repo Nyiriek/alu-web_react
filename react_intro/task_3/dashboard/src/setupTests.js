@@ -1,7 +1,11 @@
-import Enzyme from 'enzyme';
-import Adapter from 'enzyme-adapter-react-17';
+import '@testing-library/jest-dom';
+import { TextEncoder, TextDecoder } from 'util';
 
-global.TextEncoder = require('util').TextEncoder;
-global.TextDecoder = require('util').TextDecoder;
+global.TextEncoder = TextEncoder;
+global.TextDecoder = TextDecoder;
 
+import Enzyme, { shallow } from 'enzyme';
+import Adapter from '@cfaester/enzyme-adapter-react-18';
+
+// Configure enzyme to use the adapter
 Enzyme.configure({ adapter: new Adapter() });
