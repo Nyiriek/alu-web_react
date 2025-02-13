@@ -6,7 +6,7 @@ import {
 } from "../actions/courseActionTypes";
 
 describe("courseReducer tests", function () {
-  it("Tests that the default state returns an empty arr", function () {
+  it("Tests that the default state returns an empty array", function () {
     const state = courseReducer(undefined, {});
 
     expect(state).toEqual([]);
